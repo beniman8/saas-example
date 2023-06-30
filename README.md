@@ -14,8 +14,6 @@ A Saas Journal
 - [ ] Continuous Integration / pre-commit
 - [ ] Django modeling
 - [ ] Heroku / Linode set up
-- [ ]
-- [ ]
 
 ## setup on for windows
 
