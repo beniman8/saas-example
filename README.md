@@ -8,7 +8,7 @@ A Saas Journal
 
 - [x] dependencies
 - [x] Django set up
-- [ ] configuration via django-environ
+- [x] configuration via python decouple
 - [ ] Configure web server Gunicorn
 - [ ] testing
 - [ ] Continuous Integration

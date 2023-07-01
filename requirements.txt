@@ -11,7 +11,7 @@ asgiref==3.7.2
     # via django
 django==4.2.2
     # via -r requirements.in
-django-environ==0.10.0
+python-decouple==3.8
     # via -r requirements.in
 sqlparse==0.4.4
     # via django
