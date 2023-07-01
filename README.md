@@ -6,12 +6,13 @@
 
 A Saas Journal
 
-- [ ] dependencies
-- [ ] Django set up
+- [x] dependencies
+- [x] Django set up
 - [ ] configuration via django-environ
 - [ ] Configure web server Gunicorn
 - [ ] testing
-- [ ] Continuous Integration / pre-commit
+- [ ] Continuous Integration
+- [x] pre-commit
 - [ ] Django modeling
 - [ ] Heroku / Linode set up
 
