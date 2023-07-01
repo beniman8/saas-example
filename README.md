@@ -9,7 +9,7 @@ A Saas Journal
 - [x] dependencies
 - [x] Django set up
 - [x] configuration via python decouple
-- [ ] Configure web server Gunicorn
+- [x] Configure web server Gunicorn for heroku using Profile different for Linode
 - [ ] testing
 - [ ] Continuous Integration
 - [x] pre-commit
