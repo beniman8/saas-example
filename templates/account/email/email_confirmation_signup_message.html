@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style></style>
+  </head>
+  <body>
+    <p>Welcome to {{ current_site.name }}!</p>
+    <p>To begin browsing the site, you need to verify your email address.</p>
+    <p>Follow <a href="{{ activate_url }}">this activation link</a>.</p>
+    <p>
+      Regards,<br />
+      Benik from {{ current_site.name }}
+    </p>
+    <p>P.S. The link above is to {{ activate_url }}</p>
+  </body>
+</html>

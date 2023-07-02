@@ -19,9 +19,9 @@ A Saas Journal
 - [x] Django allauth setings and settup
 - [x] Finish TODO for allauth
 - [x] email/password
-- [ ] Email templates
-- [ ] setup console email backend
-- [ ] add templates for login/logout
+- [x] Email templates
+- [x] setup console email backend
+- [x] add templates for login/logout
 
 ## setup on for windows
 
