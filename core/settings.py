@@ -44,6 +44,7 @@ INSTALLED_APPS = [
 
     # internal apps
     "journal.accounts",  # renamed at journal/accounts/apps.py
+    "journal.main_core",
 
 
 ]
