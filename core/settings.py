@@ -144,6 +144,11 @@ STATICFILES_DIRS = [BASE_DIR / "static"]
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
 
+EMAIL_BACKEND = config("EMAIL_BACKEND")
+LOGIN_REDIRECT_URL = "/"
+LOGOUT_REDIRECT_URL = "/"
+
+
 # # Sites
 
 SITE_ID = 1

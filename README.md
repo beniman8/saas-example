@@ -17,7 +17,7 @@ A Saas Journal
 - [ ] Heroku / Linode set up
 - [x] User/auth account app
 - [x] Django allauth setings and settup
-- [ ] Finish TODO for allauth
+- [x] Finish TODO for allauth
 - [x] email/password
 - [ ] Email templates
 - [ ] setup console email backend
