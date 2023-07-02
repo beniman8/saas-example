@@ -11,6 +11,7 @@ jobs:
       ALLOWED_HOSTS: "*"
       SECRET_KEY: "a secret to everybody"
       EMAIL_BACKEND: "django.core.mail.backends.console.EmailBackend"
+      ACCOUNT_DEFAULT_HTTP_PROTOCOL: "http"
 
     steps:
       - name: Get the code
