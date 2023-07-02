@@ -26,7 +26,7 @@ A Saas Journal
 ## setup on for windows
 
 ```
-virutalenv venv
+virtualenv venv
 pip install -r requirements-dev.txt -r requirements.txt
 django-admin startproject core .
 py manage.py runserver
