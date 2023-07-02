@@ -31,3 +31,12 @@ pip install -r requirements-dev.txt -r requirements.txt
 django-admin startproject core .
 py manage.py runserver
 ```
+
+if you want to use Makefile on windows you need to dowload it in choco from your shell
+
+run shell and you should be able to install it and have the ability to use it in cmd, shell etc..
+
+```
+choco install make
+
+```
