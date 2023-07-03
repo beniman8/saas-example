@@ -5,3 +5,4 @@ pytest-django
 pytest-xdist
 pytest-cov==4.1.0 
 pytest-socket==0.6.0 
+pygraphviz==1.11

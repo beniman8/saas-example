@@ -1,14 +1,14 @@
 .PHONY: local
 
 local:
-	heroku local
+	py manage.py runserver
 
 deploy:
 	git push heroku main
 
 # Generate an image of the models in the system.
 graph:
-	./manage.py graph_models
+	py manage.py graph_models -a -g -o my_project_visualized.png
 
 coverage:
 	pytest --cov=journal/accounts/tests/ --migrations -n 2 --dist loadfile
