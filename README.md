@@ -13,7 +13,7 @@ A Saas Journal
 - [x] testing
 - [ ] Continuous Integration
 - [x] pre-commit
-- [ ] Django modeling
+- [x] Django modeling
 - [ ] Heroku / Linode set up
 - [x] User/auth account app
 - [x] Django allauth setings and settup
@@ -22,6 +22,7 @@ A Saas Journal
 - [x] Email templates
 - [x] setup console email backend
 - [x] add templates for login/logout
+- [x] Django management command
 
 ## setup on for windows
 
