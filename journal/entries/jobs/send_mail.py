@@ -1,6 +1,5 @@
 from django.core import mail
 from django_extensions.management.jobs import DailyJob
-
 from journal.accounts.models import Account
 
 
