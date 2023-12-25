@@ -1,7 +1,7 @@
 import os
-from decouple import config, Csv
 from pathlib import Path
 
+from decouple import Csv, config
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -9,7 +9,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 SECRET_KEY = config("SECRET_KEY")
 
-DEBUG = config('DEBUG', default=False, cast=bool)
+DEBUG = config("DEBUG", default=False, cast=bool)
 
 ALLOWED_HOSTS = config("ALLOWED_HOSTS", cast=Csv())
 
@@ -23,20 +23,15 @@ INSTALLED_APPS = [
     "django.contrib.sites",
     "django.contrib.messages",
     "django.contrib.staticfiles",
-
     # third party apps
-    'allauth',
-    'allauth.account',
-    'allauth.socialaccount',
-    'django_extensions',
-
-
+    "allauth",
+    "allauth.account",
+    "allauth.socialaccount",
+    "django_extensions",
     # internal apps
     "journal.accounts",  # renamed at journal/accounts/apps.py
     "journal.main_core",
-    "journal.entries"
-
-
+    "journal.entries",
 ]
 
 MIDDLEWARE = [
@@ -69,9 +64,8 @@ TEMPLATES = [
 
 
 AUTHENTICATION_BACKENDS = [
-
-    'django.contrib.auth.backends.ModelBackend',
-    'allauth.account.auth_backends.AuthenticationBackend',
+    "django.contrib.auth.backends.ModelBackend",
+    "allauth.account.auth_backends.AuthenticationBackend",
 ]
 
 WSGI_APPLICATION = "core.wsgi.application"
@@ -177,11 +171,14 @@ ACCOUNT_SESSION_REMEMBER = True
 # ACCOUNT_SIGNUP_EMAIL_ENTER_TWICE => default
 # ACCOUNT_SIGNUP_FORM_CLASS => default
 ACCOUNT_SIGNUP_PASSWORD_ENTER_TWICE = False
+
+
 # ACCOUNT_SIGNUP_REDIRECT_URL => default
 # ACCOUNT_TEMPLATE_EXTENSION => default
 # ACCOUNT_USERNAME_BLACKLIST => default
 # ACCOUNT_UNIQUE_EMAIL => default
-def ACCOUNT_USER_DISPLAY(user): return user.email  # noqa
+def ACCOUNT_USER_DISPLAY(user):
+    return user.email  # noqa
 
 
 # ACCOUNT_USER_MODEL_EMAIL_FIELD => default

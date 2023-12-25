@@ -37,10 +37,10 @@ class Account(models.Model):
 
 
 class User(AbstractUser):
-    '''
-        Custom user class so i can add other settings later or field to do user
+    """
+    Custom user class so i can add other settings later or field to do user
 
-    '''
+    """
 
     # customer = models.ForeignKey(Customer, null=True, blank=True, on_delete=models.SET_NULL,
     #                              help_text="The user's Stripe Customer object, if it exists")
