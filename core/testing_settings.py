@@ -1,6 +1,5 @@
 from .settings import *
 
-
 # An in-memory database should be good enough for now.
 DATABASES = {
     "default": {
